@@ -4,38 +4,123 @@
   background-color: rgba(167, 255, 233, 0.226);
   color: black;
 }
-.navBar {
-  background-color: rgb(221, 252, 252);
-  display: grid;
-  grid-template-columns: auto 70% auto;
-  padding: 7px;
-  border-bottom: solid aqua 1px;
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid rgb(18, 221, 221);
+}
+.jina{
+    padding: 7px;
 }
 .logo{
-  font-style: italic;
-  font-family: arial;
-  padding: 17px;
+    width: 35%;
+    display: flex;
+}
+.logo h3{
+    padding: 4px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(#9501ff, rgba(44, 249, 252, 0.53));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.log{
+    width: 30px;
+    padding: 2px;
+    margin-left: 4%;
+}
+.search{
+    width: 50%;
+}
+.shop{
+    width: 15%;
+    position: relative;
+    display: flex;
+}
+.shop span{
+    font-weight: 700;
+    align-self: center;
+    display: block;
+    padding: 6px;
+    margin-top: 16px;
+    border-radius: 15px;
+    background-color: aqua;
+}
+.cartLogo{
+    position: relative;
+    padding: 2px;
+    width: 25px;
+    cursor: pointer;
+
+}
+.cartLogo:hover{
+    color: aquamarine;
 }
 form{
-  border: solid aqua 1px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: aliceblue;
+    margin-top: 9px;
+    display: flex;
 }
-.search input{
+form div{
+    height: 100%;
+}
+.shop h4{
+    margin-top: 19px;
+    cursor: pointer;
+}
+.search form input{
+    background-color: rgba(226, 226, 247, 0.778);
+    width: 50%;
+    height: 20px;
+    margin-left: 15px;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(18, 221, 221);
+}
+.searchbutton{
+    color: rgb(48, 172, 255);
+    margin-left: 5px;
+    width: 25px;
+    margin-top: 4px;
+}
+.content{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-top: 70px;
+  margin: 5%;
+}
+.item{
+  background-color: white;
+  padding: 1%;
+  align-items: center;
   border-radius: 10px;
-  border: none;
-  outline: none;
-  padding: 5px;
-  margin-left: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
-.searchBox{
-  width: 70%;
+.item-name{
+  font-weight: 500;
 }
-.cart{
-  padding: 9px;
+.item-price{
+  font-weight: 400;
 }
-
-
-
+.item-stk{
+  font-weight: 100;
+  font-size: small;
+}
+.item button{
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 255, 255, 0.408);
+  cursor: pointer;
+  padding: 10px;
+}
