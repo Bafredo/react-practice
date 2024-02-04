@@ -27,10 +27,11 @@ export const Content = () => {
         return(
         <div className='item'>
             <img src={images[item.id - 1]} alt={item.name} />
-            <p className='item-name'>{item.name}</p>
-            <p className='item-price'>{item.price}</p>
-            <p className='item-stk'>{item.stk} Units left</p>
-            <button>Add to cart</button>
+            <p align='center' className='item-name'>{item.name}</p>
+            <p align='center' className='item-price'>{item.price}</p>
+            <button className='btn'>Add to cart</button>
+            <p  className='item-stk'>{item.stk} Units left</p>
+            
         </div>
          )
         
