@@ -1,0 +1,115 @@
+[
+    {
+        "id":1,
+        "img":"./../resources/images/1.png",
+        "name":"Nissan GTR",
+        "price":"Ksh.7,000,000",
+        "stk":"0983"
+    },
+    {
+        "id":2,
+        "img":"./images/2.png",
+        "name":"Hand Painetd Wall-Art",
+        "price":"Ksh.5,340",
+        "stk":"87656"
+    },
+    {
+        "id":3,
+        "img":"images/3.png",
+        "name":"Black n' Green Art",
+        "price":"Ksh.7,760",
+        "stk":"701"
+    },
+    {
+        "id":4,
+        "img":"images/4.png",
+        "name":"Nissan GTR",
+        "price":"Ksh.7,000,000",
+        "stk":"1424"
+    },
+    {
+        "id":5,
+        "img":"images/5.png",
+        "name":"Spider man art",
+        "price":"Ksh.3,450",
+        "stk":"9109"
+    },
+    {
+        "id":6,
+        "img":"images/6.png",
+        "name":"Wall art",
+        "price":"Ksh.7,000",
+        "stk":"965"
+    },
+    {
+        "id":7,
+        "img":"images/7.png",
+        "name":"Toyota Supra MK5",
+        "price":"Ksh.9,000,000",
+        "stk":"2147"
+    },
+    {
+        "id":8,
+        "img":"images/8.png",
+        "name":"Parallem dimension Wall aet",
+        "price":"Ksh.5,000",
+        "stk":"08342"
+    },
+    {
+        "id":9,
+        "img":"images/9.png",
+        "name":"Wall paper",
+        "price":"Ksh.700",
+        "stk":"959"
+    },
+    {
+        "id":10,
+        "img":"images/10.png",
+        "name":"Spiderman Wall art",
+        "price":"Ksh.7,000",
+        "stk":"65"
+    },
+    {
+        "id":11,
+        "img":"images/11.png",
+        "name":"Trueno AE86",
+        "price":"Ksh.17,000,000",
+        "stk":"7595"
+    },
+    {
+        "id":12,
+        "img":"images/12.png",
+        "name":"Nissan 200Z",
+        "price":"Ksh.23,000,000",
+        "stk":"456"
+    },
+    {
+        "id":13,
+        "img":"images/13.png",
+        "name":"Nissan Fairlady",
+        "price":"Ksh.27,700,000",
+        "stk":"098"
+    },
+    {
+        "id":14,
+        "img":"images/14.png",
+        "name":"Katana",
+        "price":"Ksh.2,000,400",
+        "stk":"234"
+    },
+    {
+        "id":15,
+        "img":"images/15.png",
+        "name":"Toyota AE86 Trueno",
+        "price":"Ksh.17,64,000",
+        "stk":"567"
+    },
+    {
+        "id":16,
+        "img":"images/16.png",
+        "name":"Cyber punk City",
+        "price":"Ksh.9,790,000",
+        "stk":"431"
+    }
+
+]
