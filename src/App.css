@@ -1,0 +1,41 @@
+.App {
+  height: fit-content;
+  width: 100%;
+  background-color: rgba(167, 255, 233, 0.226);
+  color: black;
+}
+.navBar {
+  background-color: rgb(221, 252, 252);
+  display: grid;
+  grid-template-columns: auto 70% auto;
+  padding: 7px;
+  border-bottom: solid aqua 1px;
+}
+.logo{
+  font-style: italic;
+  font-family: arial;
+  padding: 17px;
+}
+form{
+  border: solid aqua 1px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.search input{
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.searchBox{
+  width: 70%;
+}
+.cart{
+  padding: 9px;
+}
+
+
+
